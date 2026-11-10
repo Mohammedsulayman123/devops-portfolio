@@ -35,12 +35,14 @@ export const Header: React.FC<HeaderProps> = ({ onOpenTerminal, onOpenResume }) 
 
   const navLinks = [
     { label: "Overview", href: "#overview" },
-    { label: "CI/CD Pipeline", href: "#pipeline" },
+    { label: "CI/CD", href: "#pipeline" },
     { label: "K8s Topology", href: "#cluster-topology" },
+    { label: "IaC Generator", href: "#manifest-generator" },
     { label: "Projects", href: "#projects" },
     { label: "Observability", href: "#observability" },
+    { label: "SRE Runbook", href: "#runbooks" },
     { label: "Experience", href: "#experience" },
-    { label: "Terminal CLI", href: "#terminal-section" },
+    { label: "Terminal", href: "#terminal-section" },
     { label: "Contact", href: "#contact" },
   ];
 

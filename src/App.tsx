@@ -3,6 +3,8 @@ import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { PipelineVisualizer } from './components/PipelineVisualizer';
 import { ClusterTopology } from './components/ClusterTopology';
+import { IncidentPostMortem } from './components/IncidentPostMortem';
+import { ManifestGenerator } from './components/ManifestGenerator';
 import { Projects } from './components/Projects';
 import { ObservabilitySkills } from './components/ObservabilitySkills';
 import { Experience } from './components/Experience';
@@ -47,8 +49,10 @@ export const App: React.FC = () => {
         />
         <PipelineVisualizer />
         <ClusterTopology />
+        <ManifestGenerator />
         <Projects />
         <ObservabilitySkills />
+        <IncidentPostMortem />
         <Experience />
         <TerminalSection />
         <Contact />
